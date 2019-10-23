@@ -1,15 +1,14 @@
 def new_hash
   obj = {}
-
 return obj
 end
 
 def my_hash
-
+  return obj = {:name => 'Saima'}
 end
 
 def pioneer
-  # return a hash with a key of :name and a corresponding value of 'Grace Hopper'
+  return obj = { :name => "Grace Hopper"}
 end
 
 def id_generator
