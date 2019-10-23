@@ -22,7 +22,7 @@ end
 def my_hash_creator(key, value)
   obj = {}
     
-  obj[:key] = value
+  obj[key] = value
   
   return obj
 end
